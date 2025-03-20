@@ -27,7 +27,11 @@ func (w *WorkQueue) Enqueue(task Task) {
 }
 
 // Run will block the thread and execute the tasks in a FIFO order.
-// It exists when there are no more tasks to execute.
 func (w *WorkQueue) Run() {
+	/* Add your code here */
+}
+
+// Close the queue and exit
+func (w *WorkQueue) Close() {
 	/* Add your code here */
 }
