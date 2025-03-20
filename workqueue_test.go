@@ -76,8 +76,8 @@ func TestWorkQueue(t *testing.T) {
 	if taskSuccessOnThirdRun.RunCount != 3 {
 		t.Errorf("Expected taskSuccessOnThirdRun  RunCount to be 3, got %d", taskSuccessOnThirdRun.RunCount)
 	}
-	if duration := taskSuccessOnThirdRun.DurationForSuccess(); duration == nil || duration.Seconds() < 4 {
-		t.Errorf("Expected taskSuccessOnThirdRun  DurationForSuccess to be at least 4 seconds")
+	if duration := taskSuccessOnThirdRun.DurationForSuccess(); duration == nil || duration.Seconds() < 6 {
+		t.Errorf("Expected taskSuccessOnThirdRun  DurationForSuccess to be at least 6 seconds")
 	}
 	if taskNeverSucceeds.RunCount != 3 {
 		t.Errorf("Expected taskNeverSucceeds      RunCount to be 3, got %d", taskNeverSucceeds.RunCount)
