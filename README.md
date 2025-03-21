@@ -7,6 +7,7 @@ Implement Workqueue, a task queue designed to execute tasks in a First-In-First-
 
 You shall write your code in `workqueue.go` file. You can test the implementation with `make test`. You may checkout `workqueue_test.go` for more details.
 
+<!--
 ## Other Questions
 
 - Your resume states that you are proficient in Golang and C++. Could you elaborate on your in-depth experience with these languages?
@@ -15,3 +16,4 @@ You shall write your code in `workqueue.go` file. You can test the implementatio
 - Can you elaborate on the optimizations you made to the vector recall components?
 - Could you share insights into your customized Kubernetes scheduling strategies?
 - What has been the most challenging task you have ever encountered, and how did you tackle it?
+-->
